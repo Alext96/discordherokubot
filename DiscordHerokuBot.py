@@ -10,7 +10,7 @@ client = commands.Bot(command_prefix = ".")
 @client.event
 async def on_ready():
     print("Thanks for using bot")
-    await client.change_presence(game=discord.Game(name="videos"))
+    await client.change_presence(game=discord.Game(name="Baby Seal"))
 
 @client.event
 async def on_message(message):
